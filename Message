@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class CalculateSumAndProduct {
+    public static void main(String[] args) {
+        int value1 = 100;
+        int value2 = 200;
+
+        int sum = value1 + value2;
+        int product = value1 * value2;
+
+        String result = "The sum of " + value1 + " and " + value2 + " is " + sum + ".\n"
+                + "The product of " + value1 + " and " + value2 + " is " + product + ".";
+
+        JOptionPane.showMessageDialog(null, result, "Results", JOptionPane.INFORMATION_MESSAGE);
+    }
+}
